@@ -18,3 +18,12 @@ d = a.intersection(b)
 print(d)
 e = a.difference(b)
 print(e)
+
+
+
+
+s1 = set()
+s1.add(1)
+s1.add(20.1)
+print(s1)
+print(len(s1))
