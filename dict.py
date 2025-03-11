@@ -18,3 +18,10 @@ print(marks["husnain"])
 # to tackle this error we use .get method
 
 print(marks.get("awais2"))
+
+pop = marks.pop("husnain")
+print(pop)
+print(marks)
+popIte =marks.popitem()
+# pop item remove last item from dict
+print(marks)
