@@ -1,7 +1,6 @@
-f = open("/home/southville/cvtindell coredirection.txt")
+f = open("/home/southville/cvtindell coredirection.txt","rb")
 read= f.read()
 # print(read)
-data = read.split("\n")
 # print(data)
 f.close()
 
